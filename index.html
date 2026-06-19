@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hustlerpages - Get Your Business Online</title>
+<style>
+:root {
+    --primary: #e63946;  /* Hot red */
+    --secondary: #f77f00; /* Orange */
+    --accent: #fcbf49;    /* Yellow */
+    --dark: #1d3557;      /* Deep blue for contrast */
+    --light: #fff8f0;     /* Warm light bg */
+  }
+
+  body {
+    font-family: Arial, sans-serif; 
+    margin:0; 
+    padding:0; 
+    color:#333;
+    background: url('husterpages.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    background: rgba(30, 20, 10, 0.75);
+    z-index:-1;
+  }
+
+  header {
+     background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color:white; 
+    padding:20px; 
+    text-align:center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  header h1 {margin:0; font-size:28px; letter-spacing:1px;}
+  header p {margin:5px 0 0; font-size:16px; color:#f5e6d8;}
+
+  .container {max-width:1000px; margin:auto; padding:20px;}
+
+  .hero {
+    text-align:center; 
+    padding:40px 20px; 
+    background:rgba(255,255,255,0.92); 
+    border-radius:12px; 
+    margin-bottom:30px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+  }
+  .hero h2 {font-size:26px; margin-bottom:10px; color:var(--dark);}
+  .hero p {color:#444;}
+
+  .btn {
+    display:inline-block; 
+    padding:12px 24px; 
+    background:var(--secondary); 
+    color:#fff; 
+    text-decoration:none; 
+    border-radius:8px; 
+    margin-top:15px;
+    font-weight:bold;
+    transition:0.3s;
+  }
+  .btn:hover {background:var(--primary);}
+
+  .pricing {
+    display:grid; 
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); 
+    gap:20px; 
+    margin:40px 0;
+  }
+
+  .card {
+    background:rgba(255,255,255,0.96); 
+    padding:20px; 
+    border-radius:12px; 
+    box-shadow:0 3px 10px rgba(0,0,0,0.25); 
+    text-align:center;
+    transition:transform 0.2s, box-shadow 0.2s;
+    border-top:6px solid var(--primary);
+  }
+  .card:hover {
+    transform:translateY(-5px);
+    box-shadow:0 6px 16px rgba(0,0,0,0.35);
+  }
+
+  /* Color each card differently */
+  .card:nth-child(1) { border-top-color: var(--primary); }
+  .card:nth-child(1) .price { color: var(--primary); }
+  
+  .card:nth-child(2) { border-top-color: var(--secondary); }
+  .card:nth-child(2) .price { color: var(--secondary); }
+  
+  .card:nth-child(3) { border-top-color: var(--accent); }
+  .card:nth-child(3) .price { color: var(--accent); }
+
+  .card h3 {margin-top:0; font-size:22px; color:var(--dark);}
+  .price {font-size:28px; font-weight:bold; margin:10px 0;}
+  .card ul {list-style:none; padding:0; margin:15px 0; text-align:left;}
+  .card ul li {padding:6px 0; border-bottom:1px solid #eee;}
+  .card ul li:last-child {border-bottom:none;}
+  
+  footer {
+    text-align:center; 
+    padding:20px; 
+    background:var(--primary); 
+    color:white; 
+    margin-top:40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hustlerpages</h1>
+  <p>We put your local business online in 24 hours</p>
+</header>
+
+<div class="container">
+
+  <section class="hero">
+    <h2>Get Customers on WhatsApp with a Simple Website</h2>
+    <p>Show your products, share your number, and look professional. No monthly bills from big companies.</p>
+    <a href="https://wa.me/2637788544107" class="btn">Chat on WhatsApp</a>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color:#fff;">Pricing Packages</h2>
+    <div class="pricing">
+
+      <div class="card">
+        <h3>Starter</h3>
+        <div class="price">$50</div>
+        <p>One-time setup</p>
+        <ul>
+          <li>1 Page Website</li>
+          <li>Your Logo & Shop Name</li>
+          <li>Up to 6 Products/Pics</li>
+          <li>WhatsApp Button</li>
+          <li>Live on the Internet</li>
+        </ul>
+        <p><strong>+$7/month</strong> for updates</p>
+        <a href="https://wa.me/2637788544107" class="btn">Get Started</a>
+      </div>
+
+      <div class="card">
+        <h3>Pro</h3>
+        <div class="price">$80</div>
+        <p>One-time setup</p>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Photo Gallery Section</li>
+          <li>Google Maps Location</li>
+          <li>Up to 15 Products/Pics</li>
+          <li>Basic SEO Setup</li>
+        </ul>
+        <p><strong>+$10/month</strong> for updates</p>
+        <a href="https://wa.me/2637788544107" class="btn">Get Started</a>
+      </div>
+
+      <div class="card">
+        <h3>Owner</h3>
+        <div class="price">$200</div>
+        <p>One-time, full ownership</p>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>You Get HTML File + Login</li>
+          <li>No Monthly Fees</li>
+          <li>Edit It Yourself or With Anyone</li>
+          <li>30 Days Support</li>
+        </ul>
+        <a href="https://wa.me/2637788544107" class="btn">Get Started</a>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Hustlerpages. Built for local businesses in Zimbabwe.</p>
+</footer>
+
+</body>
+</html>
